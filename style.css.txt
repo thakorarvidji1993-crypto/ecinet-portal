@@ -1,0 +1,13 @@
+body{font-family:Arial;background:#eef2f7;margin:0}
+.topbar{background:#5a3fc0;height:8px}
+.header{display:flex;justify-content:space-between;padding:10px;background:#fff}
+.container{display:flex}
+.sidebar{width:220px;background:#fff;height:100vh}
+.sidebar a{display:block;padding:10px;color:#333;text-decoration:none}
+.sidebar a:hover{background:#eee}
+.main{flex:1;padding:20px}
+.btn{background:#5a3fc0;color:#fff;padding:8px;border:none;border-radius:5px}
+.table{background:#fff;padding:10px;border-radius:10px}
+.status.pending{color:orange}
+.status.approved{color:green}
+.status.rejected{color:red}
